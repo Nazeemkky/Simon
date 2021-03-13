@@ -24,7 +24,7 @@ checkAnswer(userClickedPattern.length-1);
 });
 
 function nextSequence(){
-  var userClickedPattern= [];
+   userClickedPattern= [];
 
   level ++;
   $("#level-title").text("level "+ level);
